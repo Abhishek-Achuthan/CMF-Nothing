@@ -13,15 +13,11 @@
   src: url(https://in.cmf.tech/cdn/shop/t/4/assets/LetteraMonoLL.ttf?v=155457666558450898161694574627);
 }
 
-/* universal padding and margin to avoid unnessasary atributes */
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
-/* header css */
 
 header{
  background-image: url(header-media/header-background-img.webp);
@@ -33,13 +29,9 @@ header{
  width: 100%;
 }
 
-/* navigation image css */
-
 .nav-bar img{
   height: 3.875rem;
 }
-
-/* navigation menu css */
 
 .nav-menu{
  display: flex;
@@ -50,22 +42,16 @@ header{
  font-family: "LetteraMonoLL";
 }
 
-/* adding navigation items hover effect */
-
 .nav-menu > li:hover{
   color: #FB471F;
   cursor: pointer;
 }
-
-/* navigation bar css */
 
 .nav-bar{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-/* header content styling */
 
 .hero-section{
   display: flex;
@@ -99,14 +85,11 @@ header{
   left: 50%;
 }
 
-/* adding hovering effect to button in hero section */
-
 .hero-section button:hover{
   background-color: black;
   color: #fff;
 }
 
-/* Started card styling */
 .product-section{
   padding: 0 5rem 0 5rem;
 }
@@ -118,6 +101,7 @@ header{
   background-position: center;
   align-content: flex-end;
 }
+
 .card-2{
   background-image: url(header-media/card-2-img.webp);
   background-size: cover;
@@ -126,6 +110,7 @@ header{
   align-content: flex-end;
 
 }
+
 .card-3{
   background-image: url(header-media/card-3-img.webp);
   background-size: cover;
@@ -133,6 +118,7 @@ header{
   background-position: center;
   align-content: flex-end;
 }
+
 .card-4{
   background-image: url(header-media/card-4-img.webp);
   background-size: cover;
@@ -438,9 +424,8 @@ label{
   padding-right: 5rem;
 }
 .footer-logo img{
-   width: 36%;
-   padding-left: 2rem;
-   padding-top: 4rem;
+   width: 57%;
+   padding-left: 4rem;
 }
 
 .footer-item{
